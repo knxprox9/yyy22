@@ -961,6 +961,69 @@ const StyledWrapper = styled.div`
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
+  /* Trust Bar Styles */
+  .card .content .trust-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+    border: 1px solid #d1e7dd;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 0.5rem 0;
+    font-family: 'Tajawal', 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+  }
+
+  .card .content .trust-bar:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  .card .content .trust-bar .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .card .content .trust-bar .trust-separator {
+    color: #cbd5e0;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .card .content .trust-bar .trust-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .card .content .trust-bar .stars {
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+
+  .card .content .trust-bar .rating-text {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #2d3748;
+  }
+
+  .card .content .trust-bar .trust-icon {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  .card .content .trust-bar .trust-text {
+    font-weight: 600;
+    font-size: 0.65rem;
+    color: #4a5568;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
   .card .content .empty-space {
     height: 16px;
     margin-bottom: 0.8rem;
