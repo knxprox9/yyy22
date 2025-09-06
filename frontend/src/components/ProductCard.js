@@ -992,37 +992,39 @@ const StyledWrapper = styled.div`
   }
 
   .card .content .trust-bar .trust-separator {
-    color: #cbd5e0;
-    font-weight: 300;
-    font-size: 0.9rem;
+    color: #22c55e;
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.6;
   }
 
   .card .content .trust-bar .trust-rating {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
   }
 
   .card .content .trust-bar .stars {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1;
+    color: #fbbf24;
   }
 
   .card .content .trust-bar .rating-text {
-    font-weight: 700;
-    font-size: 0.75rem;
-    color: #2d3748;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #1f2937;
   }
 
   .card .content .trust-bar .trust-icon {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1;
   }
 
   .card .content .trust-bar .trust-text {
-    font-weight: 600;
-    font-size: 0.65rem;
-    color: #4a5568;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #22c55e;
     line-height: 1.2;
     white-space: nowrap;
   }
