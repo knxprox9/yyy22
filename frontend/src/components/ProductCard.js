@@ -813,7 +813,7 @@ const StyledWrapper = styled.div`
     width: 100%; 
     background: linear-gradient(90deg, #2563EB 0%, #3b82f6 100%); /* تدرج لوني */
     opacity: 0.9; 
-    margin: 2.8rem 0 0.3rem; /* إصلاح margin ليسمح لشريط الثقة بالظهور تحته */
+    margin: 2.8rem 0 0.8rem; /* إضافة مسافة فاصلة بين الخط الأزرق وشريط الثقة */
     border-radius: 2px; /* إضافة انحناء خفيف */
   }
 
