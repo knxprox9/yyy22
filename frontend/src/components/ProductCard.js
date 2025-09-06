@@ -968,7 +968,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     gap: 12px;
     padding: 0;
-    margin: 0.6rem 0 0.2rem;
+    margin: 0.3rem 0 0.2rem;
     font-family: 'Tajawal', 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
     background: none;
     border: none;
