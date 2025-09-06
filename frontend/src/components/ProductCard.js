@@ -1020,8 +1020,8 @@ const StyledWrapper = styled.div`
   }
 
   .card .content .empty-space {
-    height: 2px;
-    margin-bottom: 0.1rem;
+    height: 0;
+    margin-bottom: 0;
   }
 
   .card:hover { transform: scale(1.03); }
