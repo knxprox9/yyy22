@@ -793,7 +793,7 @@ const StyledWrapper = styled.div`
     width: 100%; 
     background: linear-gradient(90deg, #2563EB 0%, #3b82f6 100%); /* تدرج لوني */
     opacity: 0.9; 
-    margin: 0.9rem 0 0.1rem; /* إزاحة الخط للأسفل قليلاً مع المحافظة على المساحة الإجمالية */
+    margin: 1.2rem 0 -0.2rem; /* زيادة إزاحة الخط للأسفل أكثر */
     border-radius: 2px; /* إضافة انحناء خفيف */
   }
 
