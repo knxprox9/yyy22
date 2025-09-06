@@ -966,23 +966,13 @@ const StyledWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
-    border: 1px solid #22c55e;
-    border-radius: 10px;
-    padding: 10px 16px;
-    margin: 0.8rem 0;
+    gap: 12px;
+    padding: 0;
+    margin: 0.6rem 0 0.2rem;
     font-family: 'Tajawal', 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
-    box-shadow: 0 3px 8px rgba(34, 197, 94, 0.15);
-    transition: all 0.2s ease;
-    width: 100%;
-    position: relative;
-    z-index: 5;
-  }
-
-  .card .content .trust-bar:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    background: none;
+    border: none;
+    box-shadow: none;
   }
 
   .card .content .trust-bar .trust-item {
